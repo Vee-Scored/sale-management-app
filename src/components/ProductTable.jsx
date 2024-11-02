@@ -80,10 +80,10 @@ export default function ProductTable() {
         <div>
           <button
             onClick={() => nav("/dashboard/product/create")}
-            className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded inline-flex items-center transition duration-150 ease-in-out"
+            className="bg-blue-500 flex items-center justify-center hover:bg-blue-600 text-nowrap text-white font-semibold py-2 px-2 rounded inline-flex items-center transition duration-150 ease-in-out"
           >
-            <PlusIcon className="h-5 w-5 mr-2" />
             Add Product
+            <PlusIcon className="size-5 ml-1" />
           </button>
         </div>
       </div>
@@ -95,16 +95,16 @@ export default function ProductTable() {
               <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
                 S.No
               </th>
-              <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+              <th className="px-6 py-3 text-nowrap text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
                 Product Name
               </th>
               <th className="px-6 py-3 text-right text-xs font-medium text-gray-500 uppercase tracking-wider">
                 Price
               </th>
-              <th className="px-6 py-3 text-center text-xs font-medium text-gray-500 uppercase tracking-wider">
+              <th className="px-6 py-3 text-nowrap text-center text-xs font-medium text-gray-500 uppercase tracking-wider">
                 Created At
               </th>
-              <th className="px-6 py-3 text-center text-xs font-medium text-gray-500 uppercase tracking-wider">
+              <th className="px-6 py-3 text-nowrap text-center text-xs font-medium text-gray-500 uppercase tracking-wider">
                 Updated At
               </th>
               <th className="px-6 py-3 text-center text-xs font-medium text-gray-500 uppercase tracking-wider">

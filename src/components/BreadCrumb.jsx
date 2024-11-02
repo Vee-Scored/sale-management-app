@@ -12,9 +12,9 @@ const Breadcrumb = () => {
         <li className="flex items-center">
           <Link
             to="/"
-            className="text-gray-700 hover:text-blue-600 inline-flex items-center"
+            className="text-gray-700 text-xs md:text-sm hover:text-blue-600 inline-flex items-center"
           >
-            <HomeIcon className="w-5 h-5 mr-2.5" />
+            <HomeIcon className="size-4 mr-2.5" />
             Home
           </Link>
         </li>
@@ -27,7 +27,7 @@ const Breadcrumb = () => {
               <ChevronRightIcon className="w-5 h-5 text-gray-400" />
               <Link
                 
-                className={`ml-1 pointer-events-none md:ml-2 text-sm font-medium ${
+                className={`ml-1 text-nowrap pointer-events-none md:ml-2 text-xs md:text-sm font-medium ${
                   isLast
                     ? 'text-blue-600 cursor-default pointer-events-none'
                     : 'text-gray-700 hover:text-blue-600'
